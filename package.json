@@ -1,0 +1,14 @@
+{
+  "name": "stedcypress",
+  "version": "1.0.0",
+  "description": "learning cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run",
+    "runtests":"npm run test --"  },
+  "author": "Cihan Baser",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  }
+}
